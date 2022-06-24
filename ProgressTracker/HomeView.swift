@@ -9,14 +9,16 @@ import SwiftUI
 
 struct HomeView: View {
     @EnvironmentObject var dataController: DataController
-
+    
     var body: some View {
         NavigationView {
             VStack {
                 Button("Add Data") {
                     dataController.deleteAll()
+                    dataController.save()
                     try? dataController.createSampleData()
                 }
+                
             }
             .navigationTitle("Home")
         }
