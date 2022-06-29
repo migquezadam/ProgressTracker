@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4B884E93286C3F5A006979BA /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B884E92286C3F5A006979BA /* EditItemView.swift */; };
 		4B884E95286C4297006979BA /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B884E94286C4297006979BA /* ItemRowView.swift */; };
+		4B884E97286C487E006979BA /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B884E96286C487E006979BA /* Binding-OnChange.swift */; };
 		4B8863872862A3ED000EE1C3 /* ProgressTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8863862862A3ED000EE1C3 /* ProgressTrackerApp.swift */; };
 		4B8863892862A3ED000EE1C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8863882862A3ED000EE1C3 /* ContentView.swift */; };
 		4B88638B2862A3EF000EE1C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B88638A2862A3EF000EE1C3 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		4B884E92286C3F5A006979BA /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		4B884E94286C4297006979BA /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
+		4B884E96286C487E006979BA /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
 		4B8863832862A3ED000EE1C3 /* ProgressTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B8863862862A3ED000EE1C3 /* ProgressTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTrackerApp.swift; sourceTree = "<group>"; };
 		4B8863882862A3ED000EE1C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				4BE172392863B28C0039EAC8 /* HomeView.swift */,
 				4BE1723B2863B4DC0039EAC8 /* ProjectsView.swift */,
 				4B884E92286C3F5A006979BA /* EditItemView.swift */,
+				4B884E96286C487E006979BA /* Binding-OnChange.swift */,
 				4B884E94286C4297006979BA /* ItemRowView.swift */,
 				4BC57D802865523D0004C701 /* Item-CoreDataHelpers.swift */,
 				4BC57D82286553130004C701 /* Project-CoreDataHelpers.swift */,
@@ -169,6 +172,7 @@
 				4B8863982862AD88000EE1C3 /* DataController.swift in Sources */,
 				4B884E95286C4297006979BA /* ItemRowView.swift in Sources */,
 				4B8863892862A3ED000EE1C3 /* ContentView.swift in Sources */,
+				4B884E97286C487E006979BA /* Binding-OnChange.swift in Sources */,
 				4BE1723A2863B28C0039EAC8 /* HomeView.swift in Sources */,
 				4B8863872862A3ED000EE1C3 /* ProgressTrackerApp.swift in Sources */,
 				4BC57D812865523D0004C701 /* Item-CoreDataHelpers.swift in Sources */,
