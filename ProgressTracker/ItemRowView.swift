@@ -17,7 +17,7 @@ struct ItemRowView: View {
             return Image(systemName: "checkmark.circle")
                 .foregroundColor(Color(project.projectColor))
         } else if item.priority == 3 {
-            return Image(systemName: "exclamationmark.triangle")
+            return Image(systemName: "exclamationmark.square")
                 .foregroundColor(Color(project.projectColor))
         } else {
             return Image(systemName: "checkmark.circle")
@@ -36,6 +36,7 @@ struct ItemRowView: View {
         }
     }
 }
+
 
 struct ItemRowView_Previews: PreviewProvider {
     static var previews: some View {
