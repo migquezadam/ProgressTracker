@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4B5381E0286D378A0020DA95 /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5381DF286D378A0020DA95 /* ProjectHeaderView.swift */; };
+		4B71B4CD287BF77B003BFA80 /* Color-Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B71B4CC287BF77B003BFA80 /* Color-Additions.swift */; };
 		4B884E93286C3F5A006979BA /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B884E92286C3F5A006979BA /* EditItemView.swift */; };
 		4B884E95286C4297006979BA /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B884E94286C4297006979BA /* ItemRowView.swift */; };
 		4B884E97286C487E006979BA /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B884E96286C487E006979BA /* Binding-OnChange.swift */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		4B5381DF286D378A0020DA95 /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
+		4B71B4CC287BF77B003BFA80 /* Color-Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Additions.swift"; sourceTree = "<group>"; };
 		4B884E92286C3F5A006979BA /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		4B884E94286C4297006979BA /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		4B884E96286C487E006979BA /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				4BECC67B286E779900B76D54 /* EditProjectView.swift */,
 				4BECC679286E768D00B76D54 /* Colors.xcassets */,
 				4BE172392863B28C0039EAC8 /* HomeView.swift */,
+				4B71B4CC287BF77B003BFA80 /* Color-Additions.swift */,
 				4BE1723B2863B4DC0039EAC8 /* ProjectsView.swift */,
 				4BC9F9CA28730CC8007FAB2B /* SelectSomethingView.swift */,
 				4B884E92286C3F5A006979BA /* EditItemView.swift */,
@@ -200,6 +203,7 @@
 				4BAC60AD287671B800C84166 /* AwardsView.swift in Sources */,
 				4B8863962862A411000EE1C3 /* Main.xcdatamodeld in Sources */,
 				4BC57D83286553130004C701 /* Project-CoreDataHelpers.swift in Sources */,
+				4B71B4CD287BF77B003BFA80 /* Color-Additions.swift in Sources */,
 				4BECC67C286E779900B76D54 /* EditProjectView.swift in Sources */,
 				4B8863982862AD88000EE1C3 /* DataController.swift in Sources */,
 				4BC9F9CB28730CC8007FAB2B /* SelectSomethingView.swift in Sources */,
