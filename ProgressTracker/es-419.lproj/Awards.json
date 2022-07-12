@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Primeros Pasos",
+        "description": "Añade tu primer item.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 1,
+        "image": "figure.walk"
+    },
+    {
+        "name": "Un Gran Comienzo",
+        "description": "Añade 10 elementos.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 10,
+        "image": "hand.thumbsup.fill"
+    },
+    {
+        "name": "Moviendote Hacia Arriba",
+        "description": "Añade 20 elementos.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 20,
+        "image": "tray.and.arrow.up.fill"
+    },
+    {
+        "name": "Calentando Motores",
+        "description": "Añade 50 elementos.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 50,
+        "image": "speedometer"
+    },
+    {
+        "name": "Haciendo Olas",
+        "description": "Añade 100 elementos.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 100,
+        "image": "dot.radiowaves.left.and.right"
+    },
+    {
+        "name": "Alto Desempeño",
+        "description": "Añade 250 elementos.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 250,
+        "image": "square.stack.3d.up.fill"
+    },
+    {
+        "name": "Desempeño Estelar",
+        "description": "Añade 500 elementos.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 500,
+        "image": "star.circle.fill"
+    },
+    {
+        "name": "Desempeño De Campeón",
+        "description": "Añade 1000 elementos.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 1000,
+        "image": "crown.fill"
+    },
+    {
+        "name": "Marcando Casillas",
+        "description": "Completa tu primer elemento.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 1,
+        "image": "checkmark.shield.fill"
+    },
+    {
+        "name": "Rockeando",
+        "description": "Completa 10 elementos.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 10,
+        "image": "guitars.fill"
+    },
+    {
+        "name": "20 Es Bastante",
+        "description": "Completa 20 elementos.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 20,
+        "image": "20.square.fill"
+    },
+    {
+        "name": "Acierto!",
+        "description": "Completa 50 elementos.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 50,
+        "image": "target"
+    },
+    {
+        "name": "Volando Alto!",
+        "description": "Completa 100 elementos.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 100,
+        "image": "airplane.circle.fill"
+    },
+    {
+        "name": "En Llamas!",
+        "description": "Completa 250 elementos.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 250,
+        "image": "flame.fill"
+    },
+    {
+        "name": "Como Jefe Marcando Casillas",
+        "description": "Completa 500 elementos.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 500,
+        "image": "text.badge.checkmark"
+    },
+    {
+        "name": "Boom!",
+        "description": "Completa 1000 elementos.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 1000,
+        "image": "bolt.circle.fill"
+    },
+    {
+        "name": "Primer Mensaje",
+        "description": "Posteaste tu primer mensaje en el chat grupal.",
+        "color": "Purple",
+        "criterion": "chat",
+        "value": 1,
+        "image": "person.fill"
+    },
+    {
+        "name": "Mensajero Frecuente",
+        "description": "Haz posteado 10 mensajes en el chat grupal.",
+        "color": "Purple",
+        "criterion": "chat",
+        "value": 10,
+        "image": "message.fill"
+    },
+    {
+        "name": "El Alma De La Comunidad",
+        "description": "Haz posteado 100 mensajes en el chat grupal.",
+        "color": "Purple",
+        "criterion": "chat",
+        "value": 100,
+        "image": "arrow.up.heart.fill"
+    },
+    {
+        "name": "Seguidor",
+        "description": "Compraste el desbloqueo Premium.",
+        "color": "Green",
+        "criterion": "unlock",
+        "value": 0,
+        "image": "dollarsign.square.fill"
+    }
+]
