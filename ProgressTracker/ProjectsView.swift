@@ -33,12 +33,10 @@ struct ProjectsView: View {
                         delete(offsets, from: project)
                     }
                     if showClosedProjects == false {
-                        Button(action: addProject) {
-                            if UIAccessibility.isVoiceOverRunning {
-                                Text("Add Project")
-                            } else {
-                                Label("Add Project", systemImage: "plus")
-                            }
+                        Button {
+                            addItem(to: project)
+                        } label: {
+                            Label("Add New Item", systemImage: "plus")
                         }
 
                     }
