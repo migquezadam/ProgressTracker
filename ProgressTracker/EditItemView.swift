@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct EditItemView: View {
-    
     let item: Item
     @EnvironmentObject var dataController: DataController
     @State private var title: String
@@ -49,7 +48,6 @@ struct EditItemView: View {
         .onDisappear(perform: dataController.save)
 
     }
-    
     func update() {
         item.project?.objectWillChange.send()
 

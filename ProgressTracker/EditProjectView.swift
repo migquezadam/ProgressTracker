@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct EditProjectView: View {
-    
     let project: Project
 
     @EnvironmentObject var dataController: DataController
@@ -18,13 +17,9 @@ struct EditProjectView: View {
     @State private var color: String
     @Environment(\.presentationMode) var presentationMode
     @State private var showingDeleteConfirm = false
-
-    
     let colorColumns = [
         GridItem(.adaptive(minimum: 44))
     ]
-
-    
     init(project: Project) {
         self.project = project
 
@@ -32,8 +27,6 @@ struct EditProjectView: View {
         _detail = State(wrappedValue: project.projectDetail)
         _color = State(wrappedValue: project.projectColor)
     }
-
-
     var body: some View {
         Form {
             Section(header: Text("Basic settings")) {
@@ -46,6 +39,7 @@ struct EditProjectView: View {
                 }
                 .padding(.vertical)
             }
+            // swiftlint:disable:next line_length
             Section(footer: Text("Closing a project moves it from the Open to Closed tab; deleting it removes the project completely.")) {
                 Button(project.closed ? "Reopen this project" : "Close this project") {
                     project.closed.toggle()
@@ -61,7 +55,13 @@ struct EditProjectView: View {
         .navigationTitle("Edit Project")
         .onDisappear(perform: dataController.save)
         .alert(isPresented: $showingDeleteConfirm) {
-            Alert(title: Text("Delete project?"), message: Text("Are you sure you want to delete this project? You will also delete all the items it contains."), primaryButton: .default(Text("Delete"), action: delete), secondaryButton: .cancel())
+            Alert(
+                title: Text("Delete project?"),
+                // swiftlint:disable:next line_length
+                message: Text("Are you sure you want to delete this project? You will also delete all the items it contains."),
+                primaryButton: .default(Text("Delete"), action: delete),
+                secondaryButton: .cancel()
+            )
         }
 
     }
@@ -97,9 +97,6 @@ struct EditProjectView: View {
                 : .isButton
         )
         .accessibilityLabel(LocalizedStringKey(item))    }
-
-
-
 }
 
 struct EditProjectView_Previews: PreviewProvider {

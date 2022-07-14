@@ -102,31 +102,31 @@
 			isa = PBXGroup;
 			children = (
 				4B8863992862B82D000EE1C3 /* Info.plist */,
-				4B8863862862A3ED000EE1C3 /* ProgressTrackerApp.swift */,
-				4B8863882862A3ED000EE1C3 /* ContentView.swift */,
-				4B5381DF286D378A0020DA95 /* ProjectHeaderView.swift */,
-				4BECC67B286E779900B76D54 /* EditProjectView.swift */,
-				4BECC679286E768D00B76D54 /* Colors.xcassets */,
-				4BE172392863B28C0039EAC8 /* HomeView.swift */,
-				4BF4719C287FB5DB00348FDB /* ItemListView.swift */,
-				4BF4719E287FB65B00348FDB /* ProjectSummaryView.swift */,
-				4BA4D226287D3B7A00BA0060 /* Localizable.strings */,
-				4BA4D22A287D3C7C00BA0060 /* Localizable.stringsdict */,
-				4B71B4CC287BF77B003BFA80 /* Color-Additions.swift */,
-				4BE1723B2863B4DC0039EAC8 /* ProjectsView.swift */,
-				4BC9F9CA28730CC8007FAB2B /* SelectSomethingView.swift */,
-				4B884E92286C3F5A006979BA /* EditItemView.swift */,
-				4B884E96286C487E006979BA /* Binding-OnChange.swift */,
-				4B884E94286C4297006979BA /* ItemRowView.swift */,
-				4BAC60A6287670EB00C84166 /* Bundle-Decodable.swift */,
 				4BAC60AA2876717200C84166 /* Award.swift */,
 				4BAC60AC287671B800C84166 /* AwardsView.swift */,
+				4B884E96286C487E006979BA /* Binding-OnChange.swift */,
+				4BAC60A6287670EB00C84166 /* Bundle-Decodable.swift */,
+				4B71B4CC287BF77B003BFA80 /* Color-Additions.swift */,
+				4B8863882862A3ED000EE1C3 /* ContentView.swift */,
+				4B8863972862AD88000EE1C3 /* DataController.swift */,
+				4B884E92286C3F5A006979BA /* EditItemView.swift */,
+				4BECC67B286E779900B76D54 /* EditProjectView.swift */,
+				4BE172392863B28C0039EAC8 /* HomeView.swift */,
 				4BC57D802865523D0004C701 /* Item-CoreDataHelpers.swift */,
+				4BF4719C287FB5DB00348FDB /* ItemListView.swift */,
+				4B884E94286C4297006979BA /* ItemRowView.swift */,
 				4BC57D82286553130004C701 /* Project-CoreDataHelpers.swift */,
+				4B5381DF286D378A0020DA95 /* ProjectHeaderView.swift */,
+				4BF4719E287FB65B00348FDB /* ProjectSummaryView.swift */,
+				4B8863862862A3ED000EE1C3 /* ProgressTrackerApp.swift */,
+				4BE1723B2863B4DC0039EAC8 /* ProjectsView.swift */,
+				4BC9F9CA28730CC8007FAB2B /* SelectSomethingView.swift */,
 				4BC9F9C828730295007FAB2B /* Sequence-Sorting.swift */,
 				4BA4D22E287D3D7000BA0060 /* Awards.json */,
+				4BA4D226287D3B7A00BA0060 /* Localizable.strings */,
+				4BA4D22A287D3C7C00BA0060 /* Localizable.stringsdict */,
 				4B8863942862A411000EE1C3 /* Main.xcdatamodeld */,
-				4B8863972862AD88000EE1C3 /* DataController.swift */,
+				4BECC679286E768D00B76D54 /* Colors.xcassets */,
 				4B88638A2862A3EF000EE1C3 /* Assets.xcassets */,
 				4B88638C2862A3EF000EE1C3 /* Preview Content */,
 			);
@@ -148,6 +148,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B8863912862A3EF000EE1C3 /* Build configuration list for PBXNativeTarget "ProgressTracker" */;
 			buildPhases = (
+				4BF471A0287FFCD600348FDB /* SwiftLint */,
 				4B88637F2862A3ED000EE1C3 /* Sources */,
 				4B8863802862A3ED000EE1C3 /* Frameworks */,
 				4B8863812862A3ED000EE1C3 /* Resources */,
@@ -210,6 +211,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BF471A0287FFCD600348FDB /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4B88637F2862A3ED000EE1C3 /* Sources */ = {
