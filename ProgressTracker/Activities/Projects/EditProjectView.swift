@@ -69,6 +69,7 @@ struct EditProjectView: View {
         project.title = title
         project.detail = detail
         project.color = color
+        dataController.save()
     }
     func delete() {
         dataController.delete(project)

@@ -18,8 +18,8 @@ static let tag: String? = "Home"
     // Construct a fetch request to show the 10 highest-priority, incomplete items from open projects.
     init() {
         let request: NSFetchRequest<Item> = Item.fetchRequest()
-        let completedPredicate = NSPredicate(format: "completed = false")
         let openPredicate = NSPredicate(format: "project.closed = false")
+        let completedPredicate = NSPredicate(format: "completed = false")
         let compoundPredicate = NSCompoundPredicate(type: .and, subpredicates: [completedPredicate, openPredicate])
 
         request.predicate = compoundPredicate
