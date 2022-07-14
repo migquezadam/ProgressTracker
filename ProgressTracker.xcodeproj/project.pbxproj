@@ -32,6 +32,8 @@
 		4BE1723C2863B4DC0039EAC8 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE1723B2863B4DC0039EAC8 /* ProjectsView.swift */; };
 		4BECC67A286E768E00B76D54 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BECC679286E768D00B76D54 /* Colors.xcassets */; };
 		4BECC67C286E779900B76D54 /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BECC67B286E779900B76D54 /* EditProjectView.swift */; };
+		4BF4719D287FB5DB00348FDB /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF4719C287FB5DB00348FDB /* ItemListView.swift */; };
+		4BF4719F287FB65B00348FDB /* ProjectSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF4719E287FB65B00348FDB /* ProjectSummaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +67,8 @@
 		4BE1723B2863B4DC0039EAC8 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		4BECC679286E768D00B76D54 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		4BECC67B286E779900B76D54 /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
+		4BF4719C287FB5DB00348FDB /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		4BF4719E287FB65B00348FDB /* ProjectSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSummaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				4BECC67B286E779900B76D54 /* EditProjectView.swift */,
 				4BECC679286E768D00B76D54 /* Colors.xcassets */,
 				4BE172392863B28C0039EAC8 /* HomeView.swift */,
+				4BF4719C287FB5DB00348FDB /* ItemListView.swift */,
+				4BF4719E287FB65B00348FDB /* ProjectSummaryView.swift */,
 				4BA4D226287D3B7A00BA0060 /* Localizable.strings */,
 				4BA4D22A287D3C7C00BA0060 /* Localizable.stringsdict */,
 				4B71B4CC287BF77B003BFA80 /* Color-Additions.swift */,
@@ -211,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BE1723C2863B4DC0039EAC8 /* ProjectsView.swift in Sources */,
+				4BF4719F287FB65B00348FDB /* ProjectSummaryView.swift in Sources */,
 				4B5381E0286D378A0020DA95 /* ProjectHeaderView.swift in Sources */,
 				4BAC60AD287671B800C84166 /* AwardsView.swift in Sources */,
 				4B8863962862A411000EE1C3 /* Main.xcdatamodeld in Sources */,
@@ -225,6 +232,7 @@
 				4B884E97286C487E006979BA /* Binding-OnChange.swift in Sources */,
 				4BC9F9C928730295007FAB2B /* Sequence-Sorting.swift in Sources */,
 				4BAC60A7287670EB00C84166 /* Bundle-Decodable.swift in Sources */,
+				4BF4719D287FB5DB00348FDB /* ItemListView.swift in Sources */,
 				4BE1723A2863B28C0039EAC8 /* HomeView.swift in Sources */,
 				4B8863872862A3ED000EE1C3 /* ProgressTrackerApp.swift in Sources */,
 				4BC57D812865523D0004C701 /* Item-CoreDataHelpers.swift in Sources */,
