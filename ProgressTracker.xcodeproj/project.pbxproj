@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4B4002672883B1DB00A9ED62 /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4002662883B1DB00A9ED62 /* ProjectTests.swift */; };
+		4B4002692883BE1A00A9ED62 /* AwardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4002682883BE1A00A9ED62 /* AwardTests.swift */; };
 		4B5381E0286D378A0020DA95 /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5381DF286D378A0020DA95 /* ProjectHeaderView.swift */; };
 		4B71B4CD287BF77B003BFA80 /* Color-Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B71B4CC287BF77B003BFA80 /* Color-Additions.swift */; };
 		4B884E93286C3F5A006979BA /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B884E92286C3F5A006979BA /* EditItemView.swift */; };
@@ -51,6 +52,7 @@
 
 /* Begin PBXFileReference section */
 		4B4002662883B1DB00A9ED62 /* ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTests.swift; sourceTree = "<group>"; };
+		4B4002682883BE1A00A9ED62 /* AwardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardTests.swift; sourceTree = "<group>"; };
 		4B5381DF286D378A0020DA95 /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
 		4B71B4CC287BF77B003BFA80 /* Color-Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Additions.swift"; sourceTree = "<group>"; };
 		4B884E92286C3F5A006979BA /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				4B8969832881095800C8F38A /* ProgressTrackerTests.swift */,
 				4B89698A28810AD000C8F38A /* AssetTest.swift */,
 				4B4002662883B1DB00A9ED62 /* ProjectTests.swift */,
+				4B4002682883BE1A00A9ED62 /* AwardTests.swift */,
 			);
 			path = ProgressTrackerTests;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B89698B28810AD000C8F38A /* AssetTest.swift in Sources */,
+				4B4002692883BE1A00A9ED62 /* AwardTests.swift in Sources */,
 				4B8969842881095800C8F38A /* ProgressTrackerTests.swift in Sources */,
 				4B4002672883B1DB00A9ED62 /* ProjectTests.swift in Sources */,
 			);
