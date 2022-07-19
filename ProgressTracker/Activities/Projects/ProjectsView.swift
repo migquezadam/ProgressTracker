@@ -4,7 +4,6 @@
 //
 //  Created by Miguel Quezada on 22-06-22.
 //
-
 import SwiftUI
 
 struct ProjectsView: View {

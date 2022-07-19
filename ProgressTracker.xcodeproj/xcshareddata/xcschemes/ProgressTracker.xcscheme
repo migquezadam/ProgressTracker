@@ -49,6 +49,16 @@
                ReferencedContainer = "container:ProgressTracker.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4BC92A1828863B6400C57AE4"
+               BuildableName = "ProgressTrackerUITests.xctest"
+               BlueprintName = "ProgressTrackerUITests"
+               ReferencedContainer = "container:ProgressTracker.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
